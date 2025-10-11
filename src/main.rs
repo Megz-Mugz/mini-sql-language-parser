@@ -1,5 +1,6 @@
 mod scanner;
 mod keyword;
+mod token;
 use scanner::Scanner;
 
 fn main() {
