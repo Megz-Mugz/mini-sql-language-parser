@@ -1,7 +1,9 @@
+#[derive(Debug)]
 pub enum TokenCategory {
-    Keyword,
-    Identifier,
-    Symbol,
-    Literal
+    AdditionOperator, 
+    SubtractionOperator,
+    MultiplicationOperator,
+    DivisionOperator,
+    Integer
 }
 
